@@ -1,0 +1,9 @@
+::: flat() :::
+
+flat() is use when you need to convert a 
+multi-dimensional array (nested arrays) into a single array.
+
+flat() Considerations ::
+If you pass Infinity as the depth, 
+it will recursively flatten the entire structure no matter how deeply nested it is.
+flat() does not modify the original array; it returns a new one.

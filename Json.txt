@@ -1,0 +1,52 @@
+
+Built-in Objects ::
+
+1. console 
+2. Math
+3. JSON
+4. localStorage
+
+  these are the built-in objects provided by the js.
+
+:::: JSON ::::
+ - Stands for Javascript Object Notation.
+ - It is similar to js objecct.
+ - but has less features.
+
+:::: Syntax ::::
+
+	{
+	     "Name" : "Swapnil",
+	     "Age"  : 20,
+	 "Location" : "Nagpur"
+	}
+
+- All properties and strings must use double quote ("")in JSON.
+- JSON does not support single quote ('').
+- JSON does not support function.
+
+
+Que - why we use JSON instead of js object ?
+Ans - JS object only make sense in js. 
+       but JSON object can be understand almost every programming lannguage.
+	so the JSON is more universal.
+
+ 	due to this reason we use JSON :
+	- when we send data between 2 computers that might use different programming language.
+	- We also use JSON when we store data.
+
+  ::: JSON object help us convert js object to JSON.
+
+  for eg :
+	// JS Object ::	
+	const Student ={
+			 Name : "Swapnil",
+			 Age  : 23,
+			 Location : "Nagpur"
+			}
+
+	// Convert above Student obj into JSON object.
+
+	    JSON.stringify(Student);
+
+
