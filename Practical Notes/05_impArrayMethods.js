@@ -106,34 +106,3 @@ const totalCartPrice = cartItems.reduce((totalPrice, currentPrice) => {
 // ------------------------------------------------------------
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

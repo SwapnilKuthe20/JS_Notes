@@ -90,6 +90,7 @@ Syntax:: array.splice(start, deleteCount, item1, item2, ...);
  item1, item2, ...: Elements to be added (optional).
  */
 
+// let basicArr = ["swap", 7, "neel", "kuthe", 20, 13, "snap"];
 
 // basicArr.splice(1, 3);
 // console.log(basicArr, "....Splice ");           // [ 'swap', 20, 13, 'snap' ]
@@ -290,10 +291,53 @@ const array1 = [1, 30, 4, 21, 100000];
 // console.log(array1);
 // console.log(typeof array1[1]);
 
-// ______  OR  _______
+// ---------------------------------------------------------------------------
+
+// :::: Slice() ::::   Syntax --> array.slice(start, end)
+//  Extracts a portion of an array without modifying the original array.
+
+// Key Points ::
+// Returns a new array.
+// The start index is inclusive, and the end index is exclusive.
+// If end is not provided, it slices till the end of the array.
 
 
+// let arr = [1, 2, 3, 4, 5, 6];
 
+// console.log(arr.slice(2));
+// console.log(arr.slice(2, -1));
+// console.log(arr.slice(2, 5));
+// console.log(arr.slice(-1));    
+
+//  Useful for fetching recent messages or transactions.
+
+// let arr = [10, 20, 30, 40, 50];
+// console.log(arr.slice(-3)); // [30, 40, 50] (Last 3 elements)
+// console.log(arr);
+
+
+let myArray = [1, 2, false, 3, 4, "Swap", 20, 7, "Neel", true]
+
+// console.log(myArray.splice(2,2));
+// console.log(myArray);
+
+// ----------------------------------------------------------------------------------
+
+// ::::: Join() :::::  Syntax --> array.join(separator)
+
+// The join() method is used to convert an array into a string by joining its elements with a specified separator.
+
+// separator (optional): The string that separates the array elements. Default is a comma (,).
+
+// let cartItems = ["Laptop", "Mouse", "Keyboard", "Pendrive", "USB"];
+
+// console.log(cartItems.join("- "));           // Default comma seprator
+// ----------------------------------------------------------------------------------
+
+// ::: includes() :::  to check given element is include or not
+
+// console.log(cartItems.includes("Laptop"));      // case sensitive
+// ----------------------------------------------------------------------------------
 
 
 
