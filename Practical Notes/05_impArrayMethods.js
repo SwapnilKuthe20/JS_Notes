@@ -67,6 +67,17 @@ const isEven = oneToTen.filter((numb) => {
 
 //// :::: reduce() ::::
 
+// The Array reduce() method iterate over an array and reduce their elements to a single value.
+// Syntax - array.reduce(callbackFunction, initialValue)
+//               callbackFunction - A function that runs on each element.
+//               initialValue - An optional parameter; the starting value for accumulation.
+
+// callbackFn(accumulator, currentValue, currentIndex, array) => { /* function logic */ }
+//              accumulator → Stores the accumulated result (returned in each iteration).
+//              currentValue → The current element of the array.
+//              currentIndex → The index of the current element.
+//              array → The original array.
+
 //// if we don't pass accumulator default value, 
 //// then accumulator takes 0th Index element and currentValue takes 1st Index element.
 
